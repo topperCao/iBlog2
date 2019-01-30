@@ -81,3 +81,5 @@ gulp.task('watch', () => {
  * 自动启动服务器，并进行一次js和css压缩，并开启文件改动监听
  */
 gulp.task('default', ['server', 'minify-js', 'minify-css', 'watch']);
+
+gulp.task('build', ['minify-js', 'minify-css']);

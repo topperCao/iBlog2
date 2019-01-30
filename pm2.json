@@ -1,0 +1,25 @@
+{
+  "apps": [
+    {
+      "name": "iblog",
+      "script": "bin/www",
+      "exec_mode": "cluster",
+      "instances": 4,
+      "max_memory_restart": "1G",
+      "autorestart": true,
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_dev": {
+        "NODE_ENV": "development"
+      },
+      "env_test": {
+        "NODE_ENV": "test"
+      },
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "/data/logs/iblog/error.log",
+      "out_file": "/data/logs/iblog/out.log"
+    }
+  ]
+}
+
