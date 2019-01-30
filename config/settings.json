@@ -1,10 +1,10 @@
 {
-  "SiteName": "iBlog",
+  "SiteName": "toppercao's blog",
   "Author": "You Name",
   "Email": "you_email@xxx.com",
   "SiteDomain": "www.example.com",
   "RecordNo": "浙ICP备XXX号",
-  "LogoPath": "/static/images/zhr.jpg",
+  "LogoPath": "/static/images/WechatIMG4.jpeg",
   "PageSize": "10",
   "ExpandMenu": "true",
   "ShowArticleSign": "true",
